@@ -23,42 +23,42 @@ public class MainActivity extends AppCompatActivity {
         subApp1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(MainActivity.this, "This will launch my "+getText(R.string.sub_app1)+" app!", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, ""+getText(R.string.toastMessage)+getText(R.string.sub_app1)+getText(R.string.app), Toast.LENGTH_SHORT).show();
             }
         });
 
         subApp2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(MainActivity.this, "This will launch my "+getText(R.string.sub_app2)+" app!", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, ""+getText(R.string.toastMessage)+getText(R.string.sub_app2)+getText(R.string.app), Toast.LENGTH_SHORT).show();
             }
         });
 
         subApp3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(MainActivity.this, "This will launch my "+getText(R.string.sub_app3)+" app!", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, ""+getText(R.string.toastMessage)+getText(R.string.sub_app3)+getText(R.string.app), Toast.LENGTH_SHORT).show();
             }
         });
 
         subApp4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(MainActivity.this, "This will launch my "+getText(R.string.sub_app4)+" app!", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, ""+getText(R.string.toastMessage)+getText(R.string.sub_app4)+getText(R.string.app), Toast.LENGTH_SHORT).show();
             }
         });
 
         subApp5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(MainActivity.this, "This will launch my "+getText(R.string.sub_app5)+" app!", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, ""+getText(R.string.toastMessage)+getText(R.string.sub_app5)+getText(R.string.app), Toast.LENGTH_SHORT).show();
             }
         });
 
         subApp6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(MainActivity.this, "This will launch my "+getText(R.string.sub_app6)+" app!", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, ""+getText(R.string.toastMessage)+getText(R.string.sub_app6)+getText(R.string.app), Toast.LENGTH_SHORT).show();
             }
         });
     }

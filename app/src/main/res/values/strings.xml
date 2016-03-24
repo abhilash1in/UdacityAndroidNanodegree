@@ -7,4 +7,6 @@
     <string name="sub_app4">BUILD IT BIGGER</string>
     <string name="sub_app5">XYZ READER</string>
     <string name="sub_app6">OWN</string>
+    <string name="toastMessage">This will launch my</string>
+    <string name="app">app</string>
 </resources>
